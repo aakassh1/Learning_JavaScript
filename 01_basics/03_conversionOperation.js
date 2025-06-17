@@ -56,3 +56,35 @@ console.log(num);
 let numInString = String(num);
 console.log(numInString); // "45"
 console.log(typeof numInString); // string
+
+
+/*************************************Operations****************************************/
+
+let a = 23;
+let nega = -a;
+console.log(nega); //-23
+
+
+// String Concatenation
+let s1 = "Aakash";
+let s2 = " Singh";
+let s3 = s1+s2;
+console.log(s3); // Aakash Singh
+
+console.log("1"+2); //12
+console.log(1+"2"); //12
+console.log("1"+2+2); //122
+console.log(1+1+"1"+2+2); //2122
+console.log(1+2+"2"); //32
+
+
+console.log(1+2+"12"+(1+2+3)); //3126
+
+console.log(true); // true
+console.log(+true); // 1
+console.log(+""); //0
+
+let cnt = 100;
+console.log(cnt++); // 100
+console.log(cnt); //101
+console.log(++cnt); //102
